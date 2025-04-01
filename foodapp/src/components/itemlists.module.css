@@ -1,0 +1,44 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+  
+  .cardContent {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .cardText {
+    font-size: 14px;
+    color: #555;
+  }
+  
